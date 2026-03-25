@@ -1,0 +1,25 @@
+body{
+    margin: 0.5em;
+}
+
+#speed {
+    position: relative;
+    font-size: 8em;
+    font-family: Arial;
+    background-color: rgb(34, 39, 44);
+    color:lightsteelblue;
+    padding-right: 0.2em;
+    border-radius: 100px;
+    text-align: end;
+}
+
+#speed::before{
+        content: 'Km/h';
+        color: aliceblue;
+        text-align: left;
+        position: absolute;
+        left: 2em;
+        top:50%;
+        font-size: 0.18em;
+        translate:0% -50%;
+    }
