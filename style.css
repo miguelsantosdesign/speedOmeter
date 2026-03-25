@@ -15,7 +15,7 @@ body{
 }
 
 #speed::before{
-        content: 'Km/h';
+        content: 'm/s';
         color: aliceblue;
         text-align: left;
         position: absolute;
