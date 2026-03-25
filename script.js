@@ -9,7 +9,6 @@ if ("geolocation" in navigator) {
             return;
         }
 
-        let kmh = speed * 3.6;
-        speedDiv.textContent = kmh.toFixed(1) + " km/h";
+        speedDiv.textContent = speed.toFixed(2);
     });
 }
